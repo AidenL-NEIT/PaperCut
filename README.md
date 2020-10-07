@@ -9,8 +9,8 @@ A few group policies are required to roll out the fix - details below.
 
 You must have group policies to do the following:
 
-* Copy the script from the deployment or app server onto **staff laptops** - only when it doesn't already exist.
-* A scheduled task needs to be deployed onto **all machines** to invoke the Visual Basic script every 15 minutes. It must be run as the user that's logged in (e.g. `%LogonDomain%\%LogonUser%`). It should be trigger on user login, and every 15 minutes afterwards, and also on workstation unlock.
+* Copy the script from the deployment or app server onto clients - only when it doesn't already exist.
+* A scheduled task needs to be deployed onto clients to invoke the Visual Basic script every 15 minutes. It must be run as the user that's logged in (e.g. `%LogonDomain%\%LogonUser%`). It should be trigger on user login, and every 15 minutes afterwards, and also on workstation unlock.
 
 Whangarei Girls High School, Northland College and Okaihau can be used as reference.
 
