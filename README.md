@@ -13,3 +13,6 @@ You must have group policies to do the following:
 * A scheduled task needs to be deployed to the target machines to invoke the Visual Basic script every 15 minutes. It must be run as the user that's logged in (e.g. `%LogonDomain%\%LogonUser%`). It should be trigger on user login, and every 15 minutes afterwards, and also on workstation unlock.
 
 Whangarei Girls High School, Northland College and Okaihau can be used as reference.
+
+# Deploying the Script
+Instructions can be found [here](https://newerait.atlassian.net/wiki/spaces/NTH/pages/360449/Git+-+A+Version+Control+System).
